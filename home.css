@@ -1,0 +1,239 @@
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+
+}
+body {
+  background: #f0faff;
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  position: static;
+  top: -5px;
+  left: 0;
+  width: 200%;
+  padding: 20px 200px;
+  background: #0e223a;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.container {
+    display: flex;
+    align-items: center;
+    position:static;
+    width: 250px; /* Set the width of your container */
+    height: 100px; /* Set the height of your container */
+     /* Just for visualization, you can remove this */
+}
+
+.container img {
+    position: static;
+    top: 0; /* If you want it at the top */
+    margin-left:-160px ; 
+    height: 110px;
+    width: 310px;
+    min-height: 110px;
+    min-width: 310px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+}
+
+.center img {
+  margin-right: 10px;
+  width: 100px; /* Adjust the width as needed */
+  height:0px; /* Maintain aspect ratio */
+}
+
+.text-center {
+  text-align: center;
+  color: antiquewhite;
+  visibility: visible;
+}
+
+.text-center h1 {
+  
+  
+  color: rgb(221, 65, 17);
+  font-size: 25px;
+  margin-bottom: 2px;
+}
+
+.text-center span {
+  margin-right: 160px;
+  color: black;
+  font-size: 15px;
+}
+
+.image-container {
+ 
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+ 
+  margin-top: 10px; /* Adjust the margin as needed */
+}
+
+.image-container img {
+    position: relative;
+    top: 0;
+      
+    transform: translate(5%,5%);
+    margin: 0 40px; /* Adjust the spacing between images */
+    width: 200px; /* Adjust the width of the images */
+    height: auto; /* Maintain aspect ratio */
+    border: 5px solid #333;
+  
+}
+
+ 
+.image-with-caption {
+    position: relative;
+}
+
+.image-with-caption img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    transform: scale(1.1);
+    transition: 1s;
+    
+}
+.image-with-caption:hover img{
+    transform: scale(0.7);
+
+}
+
+.image-caption {
+    position: absolute;
+    top: 75px;
+    bottom: -60px;
+    left: 70px;
+    width: 64%;
+    height: 76%;
+    background: rgb(18, 8, 27);
+    color: white;
+    border-radius: 80%;
+    -moz-borderr-image:50%;
+    
+    opacity: 0;
+    filter: blur(10px);
+    transform: scale(1);
+    transition: 1s;
+    
+}
+.image-caption h1{
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 42% auto;
+    font-size: 25px;
+}
+.image-caption h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20% auto;
+    font-size: 25px;
+}
+.image-caption h3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 28% auto;
+    font-size: 23px;
+}
+.image-caption h4{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin:20% auto;
+    font-size: 25px;
+}
+.image-caption h5{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin:25% auto;
+    font-size: 24px;
+}
+.image-caption h6{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin:25% auto;
+    font-size: 25px;
+}
+.image-caption:hover{
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+
+
+.nav {
+  position:relative;
+  justify-content: space-between;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+.nav .logo {
+  font-size: 22px;
+  font-weight: 500;
+}
+.nav .nav-links {
+  column-gap: 20px;
+  list-style: none;
+}
+.nav .nav-links a {
+  transition: all 0.2s linear;
+}
+
+
+.nav .navOpenBtn,
+.nav .navCloseBtn {
+  display: none;
+}
+
+.footer{
+  background-color: #f0faff;
+  padding: 35px;
+  text-align: center;
+ 
+}
+.footer p{
+  color: black;
+  margin-top: 5px;
+
+}
+.designer{
+opacity: 0.7;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-weight: 400;
+margin: 0px 5px;
+}
+
+
+
+
+ 
+
+  
+  
+  
+  
